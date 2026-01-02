@@ -1,6 +1,6 @@
 # 👾 Olá, É bom ter você por aqui! 🤓
 
-Sou desenvolvedor de jogos, estudante da EEEP Edson Queiroz, cursando o terceiro ano de informática
+Sou desenvolvedor de jogos, técnico em informática 
 <img src = "banner.gif" width = "175px" align = "right">
 
 - 💻  Estudante de informática
