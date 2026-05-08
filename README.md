@@ -1,5 +1,9 @@
-# 👾 Olá, É bom ter você por aqui! 🤓
 
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=39&fontAlign=50&fontAlignY=50&stroke=-&animation=scaleIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark"  />
+</div>
+
+# Olá, É bom ter você por aqui! 
 Sou desenvolvedor de jogos, técnico em informática 
 <img src = "banner.gif" width = "175px" align = "right">
 
@@ -29,8 +33,6 @@ Sou desenvolvedor de jogos, técnico em informática
 </div>
 
 ---
-
-## My Contribution Graph
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Israel-Mendes-git/Israel-Mendes-git/output/pacman-contribution-graph-dark.svg">
