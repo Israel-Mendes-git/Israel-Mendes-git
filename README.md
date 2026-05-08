@@ -3,9 +3,9 @@
 Sou desenvolvedor de jogos, técnico em informática 
 <img src = "banner.gif" width = "175px" align = "right">
 
-- 💻  Estudante de informática
-- 🎮 Fã de jogos indie
-- 👩‍💻 Aprendendo algo sobre Godot
+- 💻 Técnico em informática
+- 🎮 Movido a base de Hollow Knight
+- 👩‍💻 Aprendendo algo sobre react 
 
 <div>
   <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"/>
@@ -14,11 +14,16 @@ Sou desenvolvedor de jogos, técnico em informática
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </div>
 
 ---
 
 <div align = "left">
-<img height = "200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Israel-Mendes-git&show_icons=true&theme=bear&count_private=true"/>
-<img height = "200em" src="https://github-readme-stats.vercel.app/api?username=Israel-Mendes-git&show_icons=true&show_icons=true&theme=bear&count_private=true" />
+<img height="165" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api?username=Israel-Mendes-git&rank_icon=github&show_icons=true&theme=merko&count_private=true">
+<img height="180" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api/top-langs/?username=Israel-Mendes-git&layout=compact&theme=merko&count_private=true">
+<img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Israel-Mendes-git&theme=merko"/>
 </div>
