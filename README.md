@@ -5,9 +5,13 @@
 
 # Olá, É bom ter você por aqui! 
 Sou desenvolvedor de jogos, técnico em informática 
-<img src = "banner.gif" width = "175px" align = "right">
+<div>
+  <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red](mailto:israelmendesmzs@gmail.com)"/>
+  <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=red](https://seulink.com)"/>
+  <img src = "banner.gif" width = "175px" align = "right">
+</div>
 
-- 💻 Técnico em informática
+- 💻 Ciência da Computação 
 - 🎮 Movido a base de Hollow Knight
 - 👩‍💻 Aprendendo algo sobre react 
 
@@ -17,6 +21,10 @@ Sou desenvolvedor de jogos, técnico em informática
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"/>
+</div>
+<div>
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
