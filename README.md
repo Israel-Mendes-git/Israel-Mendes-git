@@ -12,8 +12,8 @@ Sou desenvolvedor de jogos, técnico em informática
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
   </a>
   
-  <a href="https://seulink.com">
-    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&#x26&logoColor=green" alt="Portfolio"/>
+  <a href="https://israel-mendes-git.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
   </a>
 </div>
 <img src="banner.gif" width="175px" align="right">
