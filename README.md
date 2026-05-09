@@ -5,20 +5,33 @@
 
 # Olá, É bom ter você por aqui! 
 Sou desenvolvedor de jogos, técnico em informática 
+###  Contato
+
 <div>
-  <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red](mailto:israelmendesmzs@gmail.com)"/>
-  <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=red](https://seulink.com)"/>
-  <img src = "banner.gif" width = "175px" align = "right">
+  <a href="mailto:israelmendesmzs@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
+  </a>
+  
+  <a href="https://seulink.com">
+    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&#x26&logoColor=green" alt="Portfolio"/>
+  </a>
 </div>
+<img src="banner.gif" width="175px" align="right">
+
+### Sobre
 
 - 💻 Ciência da Computação 
 - 🎮 Movido a base de Hollow Knight
 - 👩‍💻 Aprendendo algo sobre react 
 
+### Tecnologias 
+
 <div>
   <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine"/>
+  <img src="https://img.shields.io/badge/C%23-7C3AED?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GDScript-100000.svg?style=for-the-badge&logo=godotengine&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"/>
