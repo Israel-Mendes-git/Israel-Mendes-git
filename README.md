@@ -48,8 +48,8 @@ Sou desenvolvedor de jogos, técnico em informática
 ---
 
 <div align = "left">
-<img height="165" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api?username=Israel-Mendes-git&rank_icon=github&show_icons=true&theme=merko&count_private=true">
-<img height="180" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api/top-langs/?username=Israel-Mendes-git&layout=compact&theme=merko&count_private=true">
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=Israel-Mendes-git&rank_icon=github&show_icons=true&theme=merko">
+<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Israel-Mendes-git&layout=compact&theme=merko">
 <img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Israel-Mendes-git&theme=merko"/>
 </div>
 
