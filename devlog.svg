@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 216" width="900" height="216"
+     role="img" aria-label="Últimos commits nos projetos">
+  <title>No que estou mexendo</title>
+  <defs>
+    <clipPath id="corte"><rect width="900" height="216" rx="10"/></clipPath>
+    <style>
+      .t { font-family: "Segoe UI", Ubuntu, Helvetica, Arial, sans-serif; }
+      .m { font-family: ui-monospace, "DejaVu Sans Mono", Consolas, monospace; }
+    </style>
+  </defs>
+  <g clip-path="url(#corte)">
+    <rect width="900" height="216" fill="#080a08"/>
+    <rect width="900" height="216" fill="none" stroke="#22c55e" stroke-opacity="0.28" stroke-width="2" rx="10"/>
+
+    <text x="28" y="34" fill="#22c55e" font-size="11" letter-spacing="4" class="m">NO QUE ESTOU MEXENDO</text>
+    <line x1="28" y1="48" x2="872" y2="48" stroke="#22c55e" stroke-opacity="0.18"/>
+    <text x="872" y="34" fill="#3f3b36" font-size="10" text-anchor="end" class="m">atualiza sozinho, todo dia</text>
+    
+    <g transform="translate(0, 70)">
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#4a94d8"/>
+      <text x="44" y="-1" fill="#4a94d8" font-size="14" font-weight="700" class="t">Uikanban</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 4 dias</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Adiciona o README do projeto</text>
+    </g>
+    <g transform="translate(0, 116)">
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#9b6bd6"/>
+      <text x="44" y="-1" fill="#9b6bd6" font-size="14" font-weight="700" class="t">Rapadura_filmes</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 4 dias</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Escreve o README do projeto</text>
+    </g>
+    <g transform="translate(0, 162)">
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#d97a3c"/>
+      <text x="44" y="-1" fill="#d97a3c" font-size="14" font-weight="700" class="t">tower-defense</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 4 dias</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Ajusta a abertura do PLANO</text>
+    </g>
+
+    <rect x="28" y="196" width="7" height="12" fill="#22c55e">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

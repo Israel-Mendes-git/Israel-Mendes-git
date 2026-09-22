@@ -1,4 +1,4 @@
-name: devlog no README
+name: devlog e mão do dia
 
 on:
   schedule:
@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - ".github/scripts/devlog.py"
+      - ".github/scripts/baralho.py"
+      - ".github/scripts/gerar_cartas.py"
       - ".github/workflows/devlog.yml"
 
 # Duas execuções ao mesmo tempo brigariam pelo mesmo commit no README.
@@ -29,19 +31,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Reescrever o trecho do devlog
+      - name: Redesenhar o devlog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/devlog.py
 
+      - name: Sortear a mão do dia
+        run: python .github/scripts/baralho.py
+
       - name: Publicar se mudou
         run: |
-          if [ -z "$(git status --porcelain README.md)" ]; then
+          if [ -z "$(git status --porcelain README.md devlog.svg)" ]; then
             echo "nada mudou"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "devlog: atualiza o que foi mexido por último"
+          git add README.md devlog.svg
+          git commit -m "devlog: atualiza o painel e a mão do dia"
           git push
