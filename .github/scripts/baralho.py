@@ -30,7 +30,7 @@ def mao_do_dia():
 def montar() -> str:
     cartas = "\n".join(
         f'  <a href="{c["url"]}" title="{" ".join(c["nome"])}">'
-        f'<img src="{c["arquivo"]}" width="31%" alt="{" ".join(c["nome"])} — {c["tipo"]}" /></a>'
+        f'<img src="{c["arquivo"]}" width="24%" alt="{" ".join(c["nome"])} — {c["tipo"]}" /></a>'
         for c in mao_do_dia()
     )
     return f'<div align="center">\n{cartas}\n</div>'

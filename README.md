@@ -26,9 +26,9 @@
 
 <!-- BARALHO:INICIO -->
 <div align="center">
-  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="31%" alt="UI KANBAN — FERRAMENTA" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="31%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
-  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="31%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="24%" alt="UI KANBAN — FERRAMENTA" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="24%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
+  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="24%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
 </div>
 <!-- BARALHO:FIM -->
 
