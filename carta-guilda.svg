@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 336" width="240" height="336"
+     role="img" aria-label="GUILDA DA CORRUPÇÃO — Roguelike de cartas. Heróis morrem para sempre. A guilda vai cair — a questão é quão longe você chega.">
+  <title>GUILDA DA CORRUPÇÃO</title>
+  <defs>
+    <clipPath id="borda"><rect width="240" height="336" rx="14"/></clipPath>
+    <linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#borda)">
+    <rect width="240" height="336" fill="#050505"/>
+    <rect x="8" y="8" width="224" height="320" rx="10" fill="#000"
+          stroke="#22c55e" stroke-opacity="0.45"/>
+
+    <circle cx="32" cy="34" r="15" fill="#0f2c1b" stroke="#22c55e" stroke-opacity="0.6"/>
+    <text x="32" y="38" fill="#4ade80" font-size="10" font-weight="700"
+          text-anchor="middle" font-family="ui-monospace, monospace">2026</text>
+    <text x="220" y="38" fill="#22c55e" font-size="8" text-anchor="end"
+          letter-spacing="2" font-family="ui-monospace, monospace">EM OBRA</text>
+
+    <g font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif"><text x="120.0" y="83" fill="#e6edf3" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="1">GUILDA DA</text><text x="120.0" y="106" fill="#e6edf3" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="1">CORRUPÇÃO</text></g>
+
+    <rect x="20" y="118" width="200" height="78" rx="8"
+          fill="#0f2c1b" fill-opacity="0.35" stroke="#22c55e" stroke-opacity="0.25"/>
+    <g transform="translate(120.0, 157.0) scale(0.82)"><path d="M0,-34 L28,-22 C28,4 16,26 0,34 C-16,26 -28,4 -28,-22 Z" fill="none" stroke="#4ade80" stroke-width="3"/><path d="M0,-18 L0,18 M-14,0 L14,0" stroke="#4ade80" stroke-width="3"/></g>
+
+    <text x="20" y="218" fill="#4ade80" font-size="11" font-weight="600"
+          font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif">Roguelike de cartas</text>
+    <line x1="20" y1="227" x2="220" y2="227"
+          stroke="#22c55e" stroke-opacity="0.3"/>
+
+    <g font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif"><text x="20" y="246" fill="#9ca3af" font-size="11">Heróis morrem para sempre.</text><text x="20" y="263" fill="#9ca3af" font-size="11">A guilda vai cair — a questão</text><text x="20" y="280" fill="#9ca3af" font-size="11">é quão longe você chega.</text></g>
+
+    <line x1="20" y1="296" x2="220" y2="296"
+          stroke="#22c55e" stroke-opacity="0.3"/>
+    <text x="20" y="316" fill="#9ca3af" font-size="11"
+          font-family="ui-monospace, monospace">Unity · C#</text>
+
+    <rect x="-90" y="0" width="70" height="336" fill="url(#brilho)" transform="skewX(-14)">
+      <animate attributeName="x" values="-90;-90;280;280"
+               keyTimes="0;0.55;0.75;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

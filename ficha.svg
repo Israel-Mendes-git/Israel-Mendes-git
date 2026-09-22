@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="Ficha de personagem: Israel Mendes, desenvolvedor de jogos. Unity 16, C# 15, React 13, C++ 11, Python 12, Godot 7.">
+  <title>Ficha de personagem — Israel Mendes</title>
+
+  <defs>
+    <pattern id="f-grade" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.07"/>
+    </pattern>
+    <clipPath id="f-moldura"><rect width="760" height="300" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#f-moldura)">
+    <rect width="760" height="300" fill="#000"/>
+    <rect width="760" height="300" fill="url(#f-grade)"/>
+
+    <!-- coluna da esquerda -->
+    <g font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif">
+      <text x="32" y="52" fill="#4ade80" font-size="13" letter-spacing="4">FICHA DE PERSONAGEM</text>
+      <text x="32" y="92" fill="#22c55e" font-size="30" font-weight="700">Israel Mendes</text>
+
+      <text x="32" y="124" fill="#9ca3af" font-size="14">classe</text>
+      <text x="100" y="124" fill="#e6edf3" font-size="14" font-weight="600">Desenvolvedor de Jogos</text>
+
+      <text x="32" y="150" fill="#9ca3af" font-size="14">origem</text>
+      <text x="100" y="150" fill="#e6edf3" font-size="14">Cascavel, Ceará</text>
+
+      <text x="32" y="176" fill="#9ca3af" font-size="14">guilda</text>
+      <text x="100" y="176" fill="#e6edf3" font-size="14">Rapadura Atômica</text>
+
+      <line x1="32" y1="200" x2="300" y2="200" stroke="#22c55e" stroke-opacity="0.3"/>
+
+      <text x="32" y="228" fill="#9ca3af" font-size="13">⚔ arma principal</text>
+      <text x="32" y="248" fill="#4ade80" font-size="15" font-weight="600">Unity + C#</text>
+
+      <text x="32" y="276" fill="#9ca3af" font-size="13">☕ mana: Hollow Knight</text>
+    </g>
+
+    <line x1="330" y1="28" x2="330" y2="272" stroke="#22c55e" stroke-opacity="0.25"/>
+
+    <!-- barras de atributo: nascem em zero e enchem ao carregar -->
+    <g font-family="ui-monospace, 'DejaVu Sans Mono', Consolas, monospace" font-size="13">
+      <g transform="translate(362, 52)">
+        <text x="0" y="0" fill="#e6edf3">Unity</text>
+        <text x="330" y="0" fill="#4ade80" text-anchor="end">16</text>
+        <rect x="0" y="10" width="330" height="9" rx="4" fill="#0f2c1b"/>
+        <rect x="0" y="10" width="0" height="9" rx="4" fill="#22c55e">
+          <animate attributeName="width" from="0" to="264" dur="0.9s" begin="0.15s" fill="freeze"
+                   calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1" values="0;264"/>
+        </rect>
+      </g>
+      <g transform="translate(362, 92)">
+        <text x="0" y="0" fill="#e6edf3">C#</text>
+        <text x="330" y="0" fill="#4ade80" text-anchor="end">15</text>
+        <rect x="0" y="10" width="330" height="9" rx="4" fill="#0f2c1b"/>
+        <rect x="0" y="10" width="0" height="9" rx="4" fill="#22c55e">
+          <animate attributeName="width" from="0" to="248" dur="0.9s" begin="0.25s" fill="freeze"
+                   calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1" values="0;248"/>
+        </rect>
+      </g>
+      <g transform="translate(362, 132)">
+        <text x="0" y="0" fill="#e6edf3">React</text>
+        <text x="330" y="0" fill="#4ade80" text-anchor="end">13</text>
+        <rect x="0" y="10" width="330" height="9" rx="4" fill="#0f2c1b"/>
+        <rect x="0" y="10" width="0" height="9" rx="4" fill="#22c55e">
+          <animate attributeName="width" from="0" to="215" dur="0.9s" begin="0.35s" fill="freeze"
+                   calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1" values="0;215"/>
+        </rect>
+      </g>
+      <g transform="translate(362, 172)">
+        <text x="0" y="0" fill="#e6edf3">Python</text>
+        <text x="330" y="0" fill="#4ade80" text-anchor="end">12</text>
+        <rect x="0" y="10" width="330" height="9" rx="4" fill="#0f2c1b"/>
+        <rect x="0" y="10" width="0" height="9" rx="4" fill="#22c55e">
+          <animate attributeName="width" from="0" to="198" dur="0.9s" begin="0.45s" fill="freeze"
+                   calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1" values="0;198"/>
+        </rect>
+      </g>
+      <g transform="translate(362, 212)">
+        <text x="0" y="0" fill="#e6edf3">C++</text>
+        <text x="330" y="0" fill="#4ade80" text-anchor="end">11</text>
+        <rect x="0" y="10" width="330" height="9" rx="4" fill="#0f2c1b"/>
+        <rect x="0" y="10" width="0" height="9" rx="4" fill="#22c55e">
+          <animate attributeName="width" from="0" to="182" dur="0.9s" begin="0.55s" fill="freeze"
+                   calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1" values="0;182"/>
+        </rect>
+      </g>
+      <g transform="translate(362, 252)">
+        <text x="0" y="0" fill="#e6edf3">Godot</text>
+        <text x="330" y="0" fill="#4ade80" text-anchor="end">7</text>
+        <rect x="0" y="10" width="330" height="9" rx="4" fill="#0f2c1b"/>
+        <rect x="0" y="10" width="0" height="9" rx="4" fill="#22c55e">
+          <animate attributeName="width" from="0" to="116" dur="0.9s" begin="0.65s" fill="freeze"
+                   calcMode="spline" keySplines="0.2 0 0 1" keyTimes="0;1" values="0;116"/>
+        </rect>
+      </g>
+    </g>
+
+    <rect width="760" height="300" rx="12" fill="none" stroke="#22c55e" stroke-opacity="0.3" stroke-width="2"/>
+  </g>
+</svg>
