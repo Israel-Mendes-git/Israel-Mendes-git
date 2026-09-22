@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" width="1000" height="180" role="img" aria-label="Israel Mendes — desenvolvedor de jogos e ferramentas">
+  <title>Israel Mendes — desenvolvedor de jogos e ferramentas</title>
+
+  <defs>
+    <pattern id="grade" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.10"/>
+    </pattern>
+    <linearGradient id="halo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="moldura"><rect width="1000" height="180" rx="10"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#moldura)">
+    <rect width="1000" height="180" fill="#000000"/>
+    <rect width="1000" height="180" fill="url(#grade)"/>
+    <rect width="1000" height="110" fill="url(#halo)"/>
+
+    <!-- Cinco blocos caem escalonados e ficam — mesmo motivo da transição do site.
+         Ciclo longo com espera: animação de README que não para cansa. -->
+    <g>
+      <rect x="0"   y="164" width="196" height="16" fill="#07240f"/>
+      <rect x="0"   y="164" width="196" height="3"  fill="#22c55e"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-180; 0,0; 0,0" keyTimes="0; 0.09; 1" dur="7s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.4 0 0.2 1; 0 0 1 1"/>
+    </g>
+    <g>
+      <rect x="201" y="164" width="196" height="16" fill="#07240f"/>
+      <rect x="201" y="164" width="196" height="3"  fill="#22c55e"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-180; 0,-180; 0,0; 0,0" keyTimes="0; 0.02; 0.11; 1" dur="7s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1"/>
+    </g>
+    <g>
+      <rect x="402" y="164" width="196" height="16" fill="#07240f"/>
+      <rect x="402" y="164" width="196" height="3"  fill="#22c55e"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-180; 0,-180; 0,0; 0,0" keyTimes="0; 0.04; 0.13; 1" dur="7s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1"/>
+    </g>
+    <g>
+      <rect x="603" y="164" width="196" height="16" fill="#07240f"/>
+      <rect x="603" y="164" width="196" height="3"  fill="#22c55e"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-180; 0,-180; 0,0; 0,0" keyTimes="0; 0.06; 0.15; 1" dur="7s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1"/>
+    </g>
+    <g>
+      <rect x="804" y="164" width="196" height="16" fill="#07240f"/>
+      <rect x="804" y="164" width="196" height="3"  fill="#22c55e"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-180; 0,-180; 0,0; 0,0" keyTimes="0; 0.08; 0.17; 1" dur="7s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1"/>
+    </g>
+
+    <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+      <text x="500" y="76" fill="#22c55e" font-size="46" font-weight="700" letter-spacing="1">
+        Israel Mendes
+      </text>
+      <text x="500" y="108" fill="#9ca3af" font-size="16" letter-spacing="3">
+        DESENVOLVEDOR DE JOGOS E FERRAMENTAS
+      </text>
+      <text x="500" y="136" fill="#4ade80" font-size="13" font-family="ui-monospace, 'DejaVu Sans Mono', monospace" letter-spacing="2" opacity="0.75">
+        Unity · C++ · React
+      </text>
+    </g>
+
+    <rect width="1000" height="180" rx="10" fill="none" stroke="#22c55e" stroke-opacity="0.25" stroke-width="2"/>
+  </g>
+</svg>
