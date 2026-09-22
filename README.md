@@ -3,7 +3,7 @@
 
   <img src="banner.gif" width="120" align="middle" alt="" />
   <a href="https://israel-mendes-git.github.io">
-    <img align="middle" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=3200&pause=700&color=22C55E&background=00000000&center=true&vCenter=true&width=560&height=60&lines=Ol%C3%A1%2C+%C3%A9+bom+ter+voc%C3%AA+por+aqui%21%3BFa%C3%A7o+jogos+e+as+ferramentas+de+quem+faz%3BMovido+a+base+de+Hollow+Knight" alt="Faço jogos e as ferramentas de quem faz" />
+    <img align="middle" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=3000&pause=700&color=22C55E&background=00000000&center=true&vCenter=true&width=480&height=60&lines=Ol%C3%A1%2C+%C3%A9+bom+ter+voc%C3%AA+por+aqui%21%3BAceita+um+caf%C3%A9%3F%3BMe+diz+uma+ideia+de+jogo+a%C3%AD" alt="Faço jogos e as ferramentas de quem faz" />
   </a>
 </div>
 
