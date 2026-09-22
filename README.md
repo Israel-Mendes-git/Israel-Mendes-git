@@ -9,33 +9,18 @@
 
 ### Sobre
 
-- 🎮 Faço jogo desde 2024 — roguelike e sistema de cartas, quase sempre sozinho
-- 🏢 Desenvolvedor na [Rapadura Atômica](https://rapaduraatomica.com.br), estúdio de animação e jogos
-- 💻 Cursando Ciência da Computação
-- 🕹️ Movido a base de Hollow Knight
+- 💻 Ciência da Computação
+- 🎮 Movido a base de Hollow Knight
+- 👩‍💻 Aprendendo algo sobre react
 
 <div>
   <a href="mailto:israelmendesmzs@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
   </a>
-  <img src="banner.gif" width="120" align="middle" alt="" />
   <a href="https://israel-mendes-git.github.io">
-    <img align="middle" src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
   </a>
 </div>
-
-<details>
-<summary>📚 <b>A estante</b> — o que está por trás do que eu construo</summary>
-
-<br>
-
-- **Hollow Knight** — o que me move
-- **Darkest Dungeon** + **Slay the Spire** — a Guilda da Corrupção nasce do cruzamento dos dois
-- **Balatro** — estudei o game feel das cartas dele antes de escrever as minhas
-- **Bloons TD** — referência do meu tower defense
-- **Hearthstone** — molde do card game multiplayer
-
-</details>
 
 ### A mão de hoje
 
@@ -55,27 +40,34 @@
 
 ### Tecnologias
 
+**Jogos**
+
 <div>
-  <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%23-7C3AED?style=for-the-badge&logo=csharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine"/>
-  <img src="https://img.shields.io/badge/GDScript-100000.svg?style=for-the-badge&logo=godotengine&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
+  <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
+  <img src="https://img.shields.io/badge/C%23-7C3AED?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot"/>
+  <img src="https://img.shields.io/badge/GDScript-355570?style=for-the-badge&logo=godotengine&logoColor=white" alt="GDScript"/>
 </div>
+
+**Sistemas e ferramentas**
+
 <div>
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=black" alt="Python"/>
+  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Linux-1A1A1A?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"/>
 </div>
+
+**Web, apps e TV**
+
 <div>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Tailwind-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=44B78B" alt="Django"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
 </div>
 
 ### Estatísticas
