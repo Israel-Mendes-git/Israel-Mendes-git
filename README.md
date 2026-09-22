@@ -5,15 +5,21 @@
   <a href="https://israel-mendes-git.github.io">
     <img align="middle" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=3200&pause=700&color=22C55E&background=00000000&center=true&vCenter=true&width=560&height=60&lines=Ol%C3%A1%2C+%C3%A9+bom+ter+voc%C3%AA+por+aqui%21%3BFa%C3%A7o+jogos+e+as+ferramentas+de+quem+faz%3BMovido+a+base+de+Hollow+Knight" alt="Faço jogos e as ferramentas de quem faz" />
   </a>
+</div>
 
-  <div>
-    <a href="mailto:israelmendesmzs@gmail.com">
-      <img height="36" src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
-    </a>
-    <a href="https://israel-mendes-git.github.io">
-      <img height="36" src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
-    </a>
-  </div>
+### Sobre
+
+- 💻 Ciência da Computação
+- 🎮 Movido a base de Hollow Knight
+- 👩‍💻 Aprendendo algo sobre react
+
+<div>
+  <a href="mailto:israelmendesmzs@gmail.com">
+    <img height="36" src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
+  </a>
+  <a href="https://israel-mendes-git.github.io">
+    <img height="36" src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
+  </a>
 </div>
 
 ### A mão de hoje
@@ -31,12 +37,6 @@
 ### No que estou mexendo
 
 <img src="devlog.svg" width="100%" alt="Últimos commits nos meus projetos" />
-
-### Sobre
-
-- 💻 Ciência da Computação
-- 🎮 Movido a base de Hollow Knight
-- 👩‍💻 Aprendendo algo sobre react
 
 ### Tecnologias
 
