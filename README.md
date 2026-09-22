@@ -22,22 +22,6 @@
   </a>
 </div>
 
-### A mão de hoje
-
-<!-- BARALHO:INICIO -->
-<div align="center">
-  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="24%" alt="UI KANBAN — FERRAMENTA" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="24%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
-  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="24%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
-</div>
-<!-- BARALHO:FIM -->
-
-<p align="center"><sub>o baralho tem mais cartas — três são sorteadas por dia</sub></p>
-
-### No que estou mexendo
-
-<img src="devlog.svg" width="100%" alt="Últimos commits nos meus projetos" />
-
 ### Tecnologias
 
 <div>
@@ -64,6 +48,10 @@
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
 </div>
 
+### No que estou mexendo
+
+<img src="devlog.svg" width="100%" alt="Últimos commits nos meus projetos" />
+
 ### Estatísticas
 
 <div align="center">
@@ -71,6 +59,18 @@
   <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Israel-Mendes-git&layout=compact&theme=merko&hide_border=true" alt="Linguagens mais usadas"/>
   <img width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Israel-Mendes-git&theme=merko" alt="Resumo do perfil"/>
 </div>
+
+### A mão de hoje
+
+<!-- BARALHO:INICIO -->
+<div align="center">
+  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="24%" alt="UI KANBAN — FERRAMENTA" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="24%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
+  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="24%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
+</div>
+<!-- BARALHO:FIM -->
+
+<p align="center"><sub>o baralho tem mais cartas — três são sorteadas por dia</sub></p>
 
 ### Contribuições
 
