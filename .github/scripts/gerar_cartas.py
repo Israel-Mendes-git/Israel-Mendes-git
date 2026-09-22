@@ -1,202 +1,161 @@
-"""Desenha os projetos como cartas de jogo em SVG.
+"""Desenha os projetos como cartas em pixel art.
 
 Uma carta por arquivo, porque SVG servido dentro de <img> não carrega link
 interno: para cada carta ser clicável ela precisa ser um arquivo, envolvido
 por um <a> no README.
 
-Cada carta tem a cor do seu projeto e moldura ornamentada — cantoneiras,
-borda dupla e hachura de fundo. Acrescentar projeto é editar CARTAS.
+Tudo é retângulo — título, sprite e moldura. Nenhuma curva, nenhuma fonte
+externa, nada de anti-serrilhado. Acrescentar projeto é editar CARTAS.
 
 Uso:  python .github/scripts/gerar_cartas.py
 """
 import pathlib
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from pixelfonte import largura_texto, sprite_svg, texto_svg  # noqa: E402
 
 RAIZ = pathlib.Path(__file__).resolve().parents[2]
+
+PX = 4  # lado do pixel da moldura
 L, A = 240, 336  # 5:7, proporção de carta
-
-TINTA, BRUMA = "#f0ece4", "#9d968c"
-
-# Posições fixas: se o layout descesse junto com o título, carta de duas
-# linhas jogaria a linha de tipo por cima do texto de regra.
-TITULO = {1: [97], 2: [85, 108]}
-ARTE_Y, ARTE_H = 120, 76
-TIPO_Y, REGRA_Y, RODAPE_Y = 218, 246, 316
-
-EMBLEMAS = {
-    "escudo": '<path d="M0,-32 L26,-21 C26,3 15,24 0,32 C-15,24 -26,3 -26,-21 Z"/>'
-              '<path d="M0,-16 L0,16 M-13,0 L13,0"/>',
-    "arvore": '<path d="M0,-32 L20,-5 L11,-5 L27,20 L-27,20 L-11,-5 L-20,-5 Z"/>'
-              '<path d="M0,20 L0,31"/>',
-    "play":   '<circle r="27"/><path d="M-8,-13 L16,0 L-8,13 Z" class="cheio"/>',
-    "atomo":  '<circle r="6" class="cheio"/><ellipse rx="28" ry="11"/>'
-              '<ellipse rx="28" ry="11" transform="rotate(60)"/>'
-              '<ellipse rx="28" ry="11" transform="rotate(-60)"/>',
-    "balao":  '<path d="M-26,-20 H26 A5,5 0 0 1 31,-15 V10 A5,5 0 0 1 26,15 H-6 L-18,27 V15 H-26'
-              ' A5,5 0 0 1 -31,10 V-15 A5,5 0 0 1 -26,-20 Z"/>'
-              '<path d="M-16,-6 H12 M-16,4 H4"/>',
-    "quadro": '<rect x="-30" y="-24" width="60" height="48" rx="4"/>'
-              '<path d="M-10,-24 V24 M10,-24 V24"/>'
-              '<rect x="-26" y="-18" width="12" height="9" class="cheio"/>'
-              '<rect x="-6" y="-18" width="12" height="14" class="cheio"/>'
-              '<rect x="14" y="-18" width="12" height="6" class="cheio"/>',
-}
+TINTA, BRUMA = "#f0ece4", "#8d867c"
 
 CARTAS = [
     {
         "arquivo": "carta-guilda.svg",
         "url": "https://github.com/Israel-Mendes-git/Guilda-da-Corrupcao",
         "nome": ["GUILDA DA", "CORRUPÇÃO"],
-        "ano": "2026", "selo": "EM OBRA", "emblema": "escudo",
-        "cor": "#d99a3c", "fundo": "#1a1208",
-        "tipo": "Roguelike de cartas",
+        "ano": "2026", "selo": "EM OBRA", "sprite": "escudo",
+        "cor": "#e8a83e", "escura": "#6b4a12", "fundo": "#1a1206",
+        "tipo": "DECKBUILDER",
         "regra": ["Heróis morrem para sempre.", "A guilda vai cair — a questão", "é quão longe você chega."],
-        "rodape": "Unity · C#",
+        "rodape": "UNITY + C#",
     },
     {
         "arquivo": "carta-grito.svg",
         "url": "https://github.com/Israel-Mendes-git/Roguelike",
         "nome": ["O GRITO", "DA MATA"],
-        "ano": "2025", "selo": "FINALIZADO", "emblema": "arvore",
-        "cor": "#5fae52", "fundo": "#0c1a0c",
-        "tipo": "Roguelike procedural",
+        "ano": "2025", "selo": "FINALIZADO", "sprite": "arvore",
+        "cor": "#63c455", "escura": "#1d4a18", "fundo": "#0a180a",
+        "tipo": "ROGUELIKE",
         "regra": ["Mapas gerados por grafos.", "Cada partida desenha", "um labirinto novo."],
-        "rodape": "Unity · C#",
+        "rodape": "UNITY + C#",
     },
     {
         "arquivo": "carta-filmerama.svg",
         "url": "https://github.com/Israel-Mendes-git/Rapadura_filmes",
         "nome": ["FILMERAMA"],
-        "ano": "2026", "selo": "NO AR", "emblema": "play",
-        "cor": "#9b6bd6", "fundo": "#150e1f",
-        "tipo": "Plataforma de streaming",
+        "ano": "2026", "selo": "NO AR", "sprite": "play",
+        "cor": "#a674e8", "escura": "#40276b", "fundo": "#140d1f",
+        "tipo": "STREAMING",
         "regra": ["No ar em filmerama.com,", "distribuindo o que o estúdio", "produz."],
-        "rodape": "React · Node",
+        "rodape": "REACT + NODE",
     },
     {
         "arquivo": "carta-nuclear.svg",
         "url": "https://github.com/Rapadura-Atomica/Nuclear",
         "nome": ["NUCLEAR"],
-        "ano": "2026", "selo": "NO AR", "emblema": "atomo",
-        "cor": "#3fb5ab", "fundo": "#08191a",
-        "tipo": "Software de animação",
+        "ano": "2026", "selo": "NO AR", "sprite": "atomo",
+        "cor": "#3fc7bb", "escura": "#12514c", "fundo": "#07191a",
+        "tipo": "ANIMAÇÃO 2D",
         "regra": ["Fork do Blender que anima", "as séries do estúdio.", "Sou o segundo dev."],
-        "rodape": "C++ · Blender",
+        "rodape": "C++ + BLENDER",
     },
     {
         "arquivo": "carta-dizido.svg",
         "url": "https://github.com/Israel-Mendes-git/Dizido",
         "nome": ["DIZIDO"],
-        "ano": "2026", "selo": "EM OBRA", "emblema": "balao",
-        "cor": "#7b7bdd", "fundo": "#0e0e1f",
-        "tipo": "Chat de equipe",
+        "ano": "2026", "selo": "EM OBRA", "sprite": "balao",
+        "cor": "#8a8aee", "escura": "#33336b", "fundo": "#0d0d1e",
+        "tipo": "CHAT DE EQUIPE",
         "regra": ["O que foi decidido não", "se perde no meio do", "histórico."],
-        "rodape": ".NET · Blazor",
+        "rodape": ".NET + BLAZOR",
     },
     {
         "arquivo": "carta-kanban.svg",
         "url": "https://github.com/Israel-Mendes-git/Uikanban",
         "nome": ["UI KANBAN"],
-        "ano": "2026", "selo": "NO AR", "emblema": "quadro",
-        "cor": "#4a94d8", "fundo": "#08131f",
-        "tipo": "Ferramenta interna",
+        "ano": "2026", "selo": "NO AR", "sprite": "quadro",
+        "cor": "#4fa2ec", "escura": "#153f66", "fundo": "#07121f",
+        "tipo": "FERRAMENTA",
         "regra": ["O quadro da equipe numa", "TV da sala de produção,", "com burndown."],
-        "rodape": "Kotlin · Compose",
+        "rodape": "KOTLIN + COMPOSE",
     },
 ]
 
 
-def cantoneira(x, y, sx, sy, cor):
-    """L de canto, espelhado pelos sinais de sx/sy."""
+def chanfro():
+    """Canto cortado em degraus de um pixel — chanfro liso entregaria a curva."""
+    p, l, a = PX, L, A
     return (
-        f'<path d="M{x},{y + 14 * sy} L{x},{y} L{x + 14 * sx},{y}" '
-        f'fill="none" stroke="{cor}" stroke-width="2" stroke-opacity="0.85"/>'
+        f"M{2*p},0 H{l-2*p} V{p} H{l-p} V{2*p} H{l} "
+        f"V{a-2*p} H{l-p} V{a-p} H{l-2*p} V{a} "
+        f"H{2*p} V{a-p} H{p} V{a-2*p} H0 "
+        f"V{2*p} H{p} V{p} H{2*p} Z"
     )
 
 
 def desenha(c: dict) -> str:
-    cor, fundo = c["cor"], c["fundo"]
-    bases = TITULO[len(c["nome"])]
+    cor, escura, fundo = c["cor"], c["escura"], c["fundo"]
 
-    nome = "".join(
-        f'<text x="{L/2}" y="{y}" fill="{TINTA}" font-size="18" font-weight="700" '
-        f'text-anchor="middle" letter-spacing="1.5">{linha}</text>'
-        for linha, y in zip(c["nome"], bases)
+    # Título: uma ou duas linhas, centralizado, 3px por pixel.
+    topo = 44 if len(c["nome"]) == 2 else 62
+    titulo = "".join(
+        texto_svg(linha, 0, topo + i * 40, 3, TINTA, centro_em=L / 2)
+        for i, linha in enumerate(c["nome"])
     )
+
+    arte_y = 126
+    sprite = sprite_svg(c["sprite"], int(L / 2 - 6 * 5), arte_y + 6, 5, cor)
+
     regra = "".join(
-        f'<text x="22" y="{REGRA_Y + i*17}" fill="{BRUMA}" font-size="11">{linha}</text>'
+        f'<text x="20" y="{248 + i*15}" fill="{BRUMA}" font-size="10.5" class="m">{linha}</text>'
         for i, linha in enumerate(c["regra"])
     )
-    cantos = "".join(
-        cantoneira(x, y, sx, sy, cor)
-        for x, y, sx, sy in ((16, 16, 1, 1), (L - 16, 16, -1, 1), (16, A - 16, 1, -1), (L - 16, A - 16, -1, -1))
-    )
 
+    # Borda em blocos: dois anéis de 1 pixel, o de fora aceso.
+    p = PX
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {L} {A}" width="{L}" height="{A}"
-     role="img" aria-label="{' '.join(c['nome'])} — {c['tipo']}. {' '.join(c['regra'])}">
+     shape-rendering="crispEdges" role="img"
+     aria-label="{' '.join(c['nome'])} — {c['tipo'].title()}. {' '.join(c['regra'])}">
   <title>{' '.join(c['nome'])}</title>
   <defs>
-    <clipPath id="corte"><rect width="{L}" height="{A}" rx="14"/></clipPath>
-    <pattern id="hachura" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="{cor}" stroke-width="1" stroke-opacity="0.10"/>
+    <clipPath id="corte"><path d="{chanfro()}"/></clipPath>
+    <pattern id="tramado" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="{cor}" fill-opacity="0.07"/>
+      <rect x="2" y="2" width="2" height="2" fill="{cor}" fill-opacity="0.07"/>
     </pattern>
-    <radialGradient id="halo" cx="50%" cy="38%" r="60%">
-      <stop offset="0%" stop-color="{cor}" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="{cor}" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#fff" stop-opacity="0.13"/>
-      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
     <style>
-      .emblema {{ fill: none; stroke: {cor}; stroke-width: 2.6; stroke-linejoin: round; }}
-      .emblema .cheio {{ fill: {cor}; stroke: none; }}
-      .rotulo {{ font-family: ui-monospace, "DejaVu Sans Mono", Consolas, monospace; }}
-      .texto  {{ font-family: "Segoe UI", Ubuntu, Helvetica, Arial, sans-serif; }}
+      .m {{ font-family: ui-monospace, "DejaVu Sans Mono", Consolas, monospace; }}
     </style>
   </defs>
 
   <g clip-path="url(#corte)">
     <rect width="{L}" height="{A}" fill="{fundo}"/>
-    <rect width="{L}" height="{A}" fill="url(#hachura)"/>
-    <rect width="{L}" height="{A}" fill="url(#halo)"/>
+    <path d="{chanfro()}" fill="none" stroke="{cor}" stroke-width="{2*p}"/>
+    <rect x="{2*p}" y="{2*p}" width="{L-4*p}" height="{A-4*p}" fill="none"
+          stroke="{escura}" stroke-width="{p}"/>
 
-    <!-- borda dupla + cantoneiras -->
-    <rect x="7" y="7" width="{L-14}" height="{A-14}" rx="11" fill="none"
-          stroke="{cor}" stroke-opacity="0.55" stroke-width="2"/>
-    <rect x="12" y="12" width="{L-24}" height="{A-24}" rx="8" fill="none"
-          stroke="{cor}" stroke-opacity="0.22"/>
-    {cantos}
+    <!-- barra de cabeçalho -->
+    <rect x="{2*p}" y="{2*p}" width="{L-4*p}" height="{7*p}" fill="{escura}"/>
+    {texto_svg(c['ano'], 3*p + 2, 2*p + 4, 2, cor)}
+    {texto_svg(c['selo'], L - 3*p - largura_texto(c['selo'], 2), 2*p + 4, 2, TINTA)}
 
-    <!-- ano e selo -->
-    <circle cx="36" cy="38" r="14" fill="{fundo}" stroke="{cor}" stroke-opacity="0.7"/>
-    <text x="36" y="42" fill="{cor}" font-size="10" font-weight="700"
-          text-anchor="middle" class="rotulo">{c['ano']}</text>
-    <text x="{L-24}" y="42" fill="{cor}" font-size="8" text-anchor="end"
-          letter-spacing="2" class="rotulo">{c['selo']}</text>
+    <g>{titulo}</g>
 
-    <g class="texto">{nome}</g>
+    <!-- quadro de arte, tramado por dentro -->
+    <rect x="20" y="{arte_y}" width="{L-40}" height="72" fill="{escura}" fill-opacity="0.55"/>
+    <rect x="20" y="{arte_y}" width="{L-40}" height="72" fill="url(#tramado)"/>
+    <rect x="20" y="{arte_y}" width="{L-40}" height="72" fill="none" stroke="{cor}" stroke-width="{p/2}"/>
+    {sprite}
 
-    <!-- quadro de arte, com o canto cortado -->
-    <path d="M22,{ARTE_Y} H{L-32} L{L-22},{ARTE_Y+10} V{ARTE_Y+ARTE_H} H32 L22,{ARTE_Y+ARTE_H-10} Z"
-          fill="{cor}" fill-opacity="0.07" stroke="{cor}" stroke-opacity="0.35"/>
-    <g class="emblema" transform="translate({L/2}, {ARTE_Y + ARTE_H/2}) scale(0.78)">{EMBLEMAS[c['emblema']]}</g>
+    {texto_svg(c['tipo'], 20, 206, 2, cor)}
 
-    <!-- linha de tipo, com regra dupla -->
-    <text x="22" y="{TIPO_Y}" fill="{cor}" font-size="11" font-weight="600" class="texto">{c['tipo']}</text>
-    <line x1="22" y1="{TIPO_Y + 8}" x2="{L-22}" y2="{TIPO_Y + 8}" stroke="{cor}" stroke-opacity="0.45"/>
-    <line x1="22" y1="{TIPO_Y + 11}" x2="{L-22}" y2="{TIPO_Y + 11}" stroke="{cor}" stroke-opacity="0.18"/>
+    <g>{regra}</g>
 
-    <g class="texto">{regra}</g>
-
-    <line x1="22" y1="{RODAPE_Y - 20}" x2="{L-22}" y2="{RODAPE_Y - 20}" stroke="{cor}" stroke-opacity="0.35"/>
-    <text x="22" y="{RODAPE_Y}" fill="{BRUMA}" font-size="11" class="rotulo">{c['rodape']}</text>
-
-    <!-- brilho atravessando, com espera longa entre as passadas -->
-    <rect x="-90" y="0" width="70" height="{A}" fill="url(#brilho)" transform="skewX(-14)">
-      <animate attributeName="x" values="-90;-90;{L+40};{L+40}"
-               keyTimes="0;0.55;0.75;1" dur="7s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="20" y="{A-48}" width="{L-40}" height="{p/2}" fill="{escura}"/>
+    {texto_svg(c['rodape'], 20, A - 42, 2, BRUMA)}
   </g>
 </svg>
 '''

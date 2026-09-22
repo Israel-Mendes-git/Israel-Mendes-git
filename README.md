@@ -15,10 +15,10 @@
 
 <div>
   <a href="mailto:israelmendesmzs@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
+    <img height="36" src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=green" alt="Gmail"/>
   </a>
   <a href="https://israel-mendes-git.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
+    <img height="36" src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=todoist&logoColor=green" alt="Portfolio"/>
   </a>
 </div>
 
@@ -26,9 +26,9 @@
 
 <!-- BARALHO:INICIO -->
 <div align="center">
-  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="31%" alt="UI KANBAN — Ferramenta interna" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="31%" alt="O GRITO DA MATA — Roguelike procedural" /></a>
-  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="31%" alt="NUCLEAR — Software de animação" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="31%" alt="UI KANBAN — FERRAMENTA" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="31%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
+  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="31%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
 </div>
 <!-- BARALHO:FIM -->
 
@@ -40,16 +40,12 @@
 
 ### Tecnologias
 
-**Jogos**
-
 <div>
   <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
   <img src="https://img.shields.io/badge/C%23-7C3AED?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
   <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot"/>
   <img src="https://img.shields.io/badge/GDScript-355570?style=for-the-badge&logo=godotengine&logoColor=white" alt="GDScript"/>
 </div>
-
-**Sistemas e ferramentas**
 
 <div>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
@@ -58,8 +54,6 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Linux-1A1A1A?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"/>
 </div>
-
-**Web, apps e TV**
 
 <div>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
