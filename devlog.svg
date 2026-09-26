@@ -17,22 +17,22 @@
     <text x="872" y="34" fill="#3f3b36" font-size="10" text-anchor="end" class="m">atualiza sozinho, todo dia</text>
     
     <g transform="translate(0, 70)">
-      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#4a94d8"/>
-      <text x="44" y="-1" fill="#4a94d8" font-size="14" font-weight="700" class="t">Uikanban</text>
-      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 7 dias</text>
-      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Adiciona o README do projeto</text>
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#d99a3c"/>
+      <text x="44" y="-1" fill="#d99a3c" font-size="14" font-weight="700" class="t">Guilda-da-Corrupcao</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">hoje</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Handoff: o estado de 13/09, com a conversa da jornada ainda e…</text>
     </g>
     <g transform="translate(0, 116)">
-      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#9b6bd6"/>
-      <text x="44" y="-1" fill="#9b6bd6" font-size="14" font-weight="700" class="t">Rapadura_filmes</text>
-      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 7 dias</text>
-      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Escreve o README do projeto</text>
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#4a94d8"/>
+      <text x="44" y="-1" fill="#4a94d8" font-size="14" font-weight="700" class="t">Uikanban</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 8 dias</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Adiciona o README do projeto</text>
     </g>
     <g transform="translate(0, 162)">
-      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#d97a3c"/>
-      <text x="44" y="-1" fill="#d97a3c" font-size="14" font-weight="700" class="t">tower-defense</text>
-      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 7 dias</text>
-      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Ajusta a abertura do PLANO</text>
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#9b6bd6"/>
+      <text x="44" y="-1" fill="#9b6bd6" font-size="14" font-weight="700" class="t">Rapadura_filmes</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 8 dias</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Escreve o README do projeto</text>
     </g>
 
     <rect x="28" y="196" width="7" height="12" fill="#22c55e">
