@@ -48,11 +48,7 @@
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
 </div>
 
-### No que estou mexendo
-
 <img src="devlog.svg" width="100%" alt="Últimos commits nos meus projetos" />
-
-### Estatísticas
 
 <div align="center">
   <img height="165" src="https://github-stats-extended.vercel.app/api?username=Israel-Mendes-git&rank_icon=github&show_icons=true&theme=merko&hide_border=true" alt="Estatísticas do GitHub"/>
