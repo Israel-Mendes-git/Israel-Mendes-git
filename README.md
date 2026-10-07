@@ -60,9 +60,9 @@
 
 <!-- BARALHO:INICIO -->
 <div align="center">
-  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="24%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="24%" alt="UI KANBAN — FERRAMENTA" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Guilda-da-Corrupcao" title="GUILDA DA CORRUPÇÃO"><img src="carta-guilda.svg" width="24%" alt="GUILDA DA CORRUPÇÃO — DECKBUILDER" /></a>
   <a href="https://github.com/Israel-Mendes-git/Dizido" title="DIZIDO"><img src="carta-dizido.svg" width="24%" alt="DIZIDO — CHAT DE EQUIPE" /></a>
+  <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="24%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
 </div>
 <!-- BARALHO:FIM -->
 
