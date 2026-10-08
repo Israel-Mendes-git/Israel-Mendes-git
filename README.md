@@ -61,7 +61,7 @@
 <!-- BARALHO:INICIO -->
 <div align="center">
   <a href="https://github.com/Israel-Mendes-git/Guilda-da-Corrupcao" title="GUILDA DA CORRUPÇÃO"><img src="carta-guilda.svg" width="24%" alt="GUILDA DA CORRUPÇÃO — DECKBUILDER" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Dizido" title="DIZIDO"><img src="carta-dizido.svg" width="24%" alt="DIZIDO — CHAT DE EQUIPE" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Rapadura_filmes" title="FILMERAMA"><img src="carta-filmerama.svg" width="24%" alt="FILMERAMA — STREAMING" /></a>
   <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="24%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
 </div>
 <!-- BARALHO:FIM -->
