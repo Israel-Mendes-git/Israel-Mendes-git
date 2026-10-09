@@ -60,9 +60,9 @@
 
 <!-- BARALHO:INICIO -->
 <div align="center">
-  <a href="https://github.com/Israel-Mendes-git/Guilda-da-Corrupcao" title="GUILDA DA CORRUPÇÃO"><img src="carta-guilda.svg" width="24%" alt="GUILDA DA CORRUPÇÃO — DECKBUILDER" /></a>
   <a href="https://github.com/Israel-Mendes-git/Rapadura_filmes" title="FILMERAMA"><img src="carta-filmerama.svg" width="24%" alt="FILMERAMA — STREAMING" /></a>
   <a href="https://github.com/Rapadura-Atomica/Nuclear" title="NUCLEAR"><img src="carta-nuclear.svg" width="24%" alt="NUCLEAR — ANIMAÇÃO 2D" /></a>
+  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="24%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
 </div>
 <!-- BARALHO:FIM -->
 
