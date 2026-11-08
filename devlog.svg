@@ -14,7 +14,6 @@
 
     <text x="28" y="34" fill="#22c55e" font-size="11" letter-spacing="4" class="m">NO QUE ESTOU MEXENDO</text>
     <line x1="28" y1="48" x2="872" y2="48" stroke="#22c55e" stroke-opacity="0.18"/>
-    <text x="872" y="34" fill="#3f3b36" font-size="10" text-anchor="end" class="m">atualiza sozinho, todo dia</text>
     
     <g transform="translate(0, 70)">
       <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#5fae52"/>
@@ -23,16 +22,16 @@
       <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Ajustando a cena principal</text>
     </g>
     <g transform="translate(0, 116)">
-      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#d99a3c"/>
-      <text x="44" y="-1" fill="#d99a3c" font-size="14" font-weight="700" class="t">Guilda-da-Corrupcao</text>
-      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 6 semanas</text>
-      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Handoff: o estado de 13/09, com a conversa da jornada ainda e…</text>
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#d96ba8"/>
+      <text x="44" y="-1" fill="#d96ba8" font-size="14" font-weight="700" class="t">gatos-e-roupas</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 10 dias</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">build: versão 1.2.0 com o pintor do Ateliê</text>
     </g>
     <g transform="translate(0, 162)">
-      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#4a94d8"/>
-      <text x="44" y="-1" fill="#4a94d8" font-size="14" font-weight="700" class="t">Uikanban</text>
-      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 7 semanas</text>
-      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Adiciona o README do projeto</text>
+      <rect x="28" y="-16" width="3" height="32" rx="1.5" fill="#3cb0d9"/>
+      <text x="44" y="-1" fill="#3cb0d9" font-size="14" font-weight="700" class="t">Sale</text>
+      <text x="868" y="-1" fill="#6f6a63" font-size="12" text-anchor="end" class="m">há 2 semanas</text>
+      <text x="44" y="17" fill="#9d968c" font-size="12.5" class="m">Versão 1.8.0</text>
     </g>
 
     <rect x="28" y="196" width="7" height="12" fill="#22c55e">

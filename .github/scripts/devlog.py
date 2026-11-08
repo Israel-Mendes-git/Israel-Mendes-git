@@ -18,12 +18,10 @@ from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
 ACOMPANHAR = [
-    ("Israel-Mendes-git/Guilda-da-Corrupcao", "#d99a3c"),
     ("Israel-Mendes-git/Roguelike", "#5fae52"),
-    ("Israel-Mendes-git/tower-defense", "#d97a3c"),
-    ("Israel-Mendes-git/Dizido", "#7b7bdd"),
-    ("Israel-Mendes-git/Uikanban", "#4a94d8"),
-    ("Israel-Mendes-git/Rapadura_filmes", "#9b6bd6"),
+    ("Israel-Mendes-git/gatos-e-roupas", "#d96ba8"),
+    ("Israel-Mendes-git/Sale", "#3cb0d9"),
+    ("Israel-Mendes-git/Guilda-da-Corrupcao", "#d99a3c"),
 ]
 QUANTOS = 3
 L, LINHA_H = 900, 46
@@ -113,7 +111,6 @@ def desenhar(itens) -> str:
 
     <text x="28" y="34" fill="#22c55e" font-size="11" letter-spacing="4" class="m">NO QUE ESTOU MEXENDO</text>
     <line x1="28" y1="48" x2="{L-28}" y2="48" stroke="#22c55e" stroke-opacity="0.18"/>
-    <text x="{L-28}" y="34" fill="#3f3b36" font-size="10" text-anchor="end" class="m">atualiza sozinho, todo dia</text>
     {linhas}
 
     <rect x="28" y="{A-20}" width="7" height="12" fill="#22c55e">

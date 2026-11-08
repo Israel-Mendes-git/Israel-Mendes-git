@@ -56,18 +56,6 @@
   <img width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Israel-Mendes-git&theme=merko" alt="Resumo do perfil"/>
 </div>
 
-### A mão de hoje
-
-<!-- BARALHO:INICIO -->
-<div align="center">
-  <a href="https://github.com/Israel-Mendes-git/Rapadura_filmes" title="FILMERAMA"><img src="carta-filmerama.svg" width="24%" alt="FILMERAMA — STREAMING" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Uikanban" title="UI KANBAN"><img src="carta-kanban.svg" width="24%" alt="UI KANBAN — FERRAMENTA" /></a>
-  <a href="https://github.com/Israel-Mendes-git/Roguelike" title="O GRITO DA MATA"><img src="carta-grito.svg" width="24%" alt="O GRITO DA MATA — ROGUELIKE" /></a>
-</div>
-<!-- BARALHO:FIM -->
-
-<p align="center"><sub>o baralho tem mais cartas — três são sorteadas por dia</sub></p>
-
 ### Contribuições
 
 <picture>
